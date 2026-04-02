@@ -1,6 +1,6 @@
 global:
   pattern: ai-quickstart-rag
-  device: gpu # one of 'cpu' (no GPU) or 'gpu' (NVIDIA GPU)
+  device: cpu # one of 'cpu' (no GPU) or 'gpu' (NVIDIA GPU)
 main:
   clusterGroupName: prod
   multiSourceConfig:
