@@ -1,4 +1,4 @@
-llm-serice:
+llm-service:
   device: cpu
 
   models:
