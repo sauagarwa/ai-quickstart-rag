@@ -17,7 +17,7 @@ This pattern encapsulates the [RAG AI Quickstart](https://github.com/rh-ai-quick
 
 ## Requesting model access
 
-By default, this model will require access to [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct).
+By default, this model will require access to [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct).
 Request access on Hugging Face before installing the pattern with the account that the token in
 `~/values-secret-ai-quickstart-rag.yaml` is associated with.
 
