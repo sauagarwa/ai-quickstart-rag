@@ -8,11 +8,11 @@ global:
       enabled: true
       resources:
         limits:
-          cpu: "4"
-          memory: 32Gi
+          cpu: "6"
+          memory: 48Gi
         requests:
-          cpu: "1"
-          memory: 16Gi
+          cpu: "2"
+          memory: 24Gi
       args:
         - --enable-auto-tool-choice
         - --chat-template
@@ -22,6 +22,6 @@ global:
         - --dtype
         - auto
         - --max-model-len
-        - "12288"
+        - "16384"
         - --max-num-seqs
         - "1"
